@@ -311,6 +311,16 @@ SENTRY_FEATURES.update(
             "organizations:starfish-mobile-appstart",
             "projects:span-metrics-extraction",
         )  # starfish related flags
+        # User Feedback related flags
+        + (
+            "organizations:user-feedback-ui",
+            "organizations:feedback-visible",
+            "organizations:user-feedback-ingest",
+            "organizations:feedback-post-process-group",
+            "organizations:user-feedback-spam-filter-ingest",
+            "organizations:user-feedback-spam-filter-actions",
+            "organizations:feedback-ingest",
+        )
     }
 )
 
